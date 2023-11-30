@@ -81,6 +81,7 @@ public class Main {
                     System.out.println("Insira o valor a ser pago");
                     Scanner pagaFatura = new Scanner(System.in);
                     double valorPgtoFatura = pagaFatura.nextDouble();
+                    
                     if(valorPgtoFatura > fatura) {
                         System.out.println("O valor deve ser inferior ao valor da fatura");
                         break;
